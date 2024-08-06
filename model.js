@@ -14,7 +14,7 @@ function verifynumero(){
     var bet = window.document.getElementById('tex').value
     if(bet > 50 || bet < 1)
     {
-       alert('valor invalida');
+       alert('valor invalido');
        return;
     }
 
